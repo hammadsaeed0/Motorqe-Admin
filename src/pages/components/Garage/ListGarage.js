@@ -51,7 +51,7 @@ const ListGarage = () => {
               <BlockTitle page>Garage</BlockTitle>
               <BlockDes className="text-soft">Manage your Garage</BlockDes>
             </BlockHeadContent>
-            <Link to={`${base_origin}/garage-dashboard/GarageDetails-upload`}>
+            <Link to={`http://localhost:3000/garage-dashboard/GarageDetails-upload`}>
               <Button color="primary">
                 <span>Add Garage</span>
               </Button>

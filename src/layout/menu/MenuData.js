@@ -37,7 +37,27 @@ const menu = [
     active: false,
    
   },
-  
+  {
+    icon: "focus",
+    text: "Listing Details",
+    link: "/carListingDetails",
+    active: false,
+   
+  },
+  {
+    icon: "focus",
+    text: "Cars",
+    link: "/car-list",
+    active: false,
+   
+  },
+  {
+    icon: "focus",
+    text: "News",
+    link: "/add-news",
+    active: false,
+   
+  },
   // {
   //   icon: "focus",
   //   text: "Garage Booking",

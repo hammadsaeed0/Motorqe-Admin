@@ -21,6 +21,7 @@ const UserList = () => {
   const usersData = [
     { id: 1, username: "JohnDoe", email: "john@example.com", status: true, isEmailVerified: true },
     { id: 2, username: "JaneDoe", email: "jane@example.com", status: false, isEmailVerified: false },
+    { id: 2, username: "HammadSaeed", email: "jane@example.com", status: false, isEmailVerified: false },
     // Add more users as needed
   ];
 

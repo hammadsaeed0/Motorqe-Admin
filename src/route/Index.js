@@ -23,6 +23,11 @@ import AddUser from "pages/User/addUser";
 import UserListNew from "pages/User/UserListNew";
 import ListGarage from "pages/components/Garage/ListGarage";
 import Booking_garage_list from "pages/components/BookingGarage/Booking_garage_list";
+import FormLayoutsPage from "pages/components/forms/FormLayouts";
+import UserList from "pages/User/UserList";
+import CarList from "pages/User/CarList";
+import AddCars from "pages/User/AddNewsData";
+import AddNewsData from "pages/User/AddNewsData";
 const Router = () => {
   const location = useLocation();
   useLayoutEffect(() => {
@@ -37,10 +42,13 @@ const Router = () => {
         <Route path="sales" element={<Sales />}></Route>
         <Route path="analytics" element={<Analytics />}></Route>
         <Route path="user-list" element={<UserListNew />}></Route>
+        <Route path="car-list" element={<CarList />}></Route>
         <Route path="add-user" element={<AddUser />}></Route>
+        <Route path="add-news" element={<AddNewsData />}></Route>
         <Route path="admin-list" element={<AdminList />}></Route>
         <Route path="user-profile" element={<UserProfileRegularPage />}></Route> 
         <Route path="garage" element={<ListGarage />}></Route>
+        <Route path="carListingDetails" element={<FormLayoutsPage />}></Route>
         <Route path="booking_garge_list" element={<Booking_garage_list />}></Route>
         <Route path="songslist" element={<SongTrack />}></Route>
         <Route path="add-karaoke" element={<Karaoke />}></Route>
