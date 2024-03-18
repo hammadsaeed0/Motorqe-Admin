@@ -63,7 +63,7 @@ const addUser = () => {
           {errorVal && (
             <div className="mb-3">
               <Alert color="danger" className="alert-icon">
-                <Icon name="alert-circle" /> {errorVal}
+                {/* <Icon name="alert-circle" /> {errorVal} */}
               </Alert>
             </div>
           )}
